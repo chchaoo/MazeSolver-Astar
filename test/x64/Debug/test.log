@@ -1,0 +1,9 @@
+﻿  test.cpp
+C:\Users\Pyotr\Desktop\删注释\test\test.cpp(362,23): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\Pyotr\Desktop\删注释\test\test.cpp(962,25): warning C4244: “=”: 从“double”转换到“time_t”，可能丢失数据
+C:\Users\Pyotr\Desktop\删注释\test\test.cpp(963,19): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+C:\Users\Pyotr\Desktop\删注释\test\test.cpp(964,25): warning C4244: “=”: 从“double”转换到“time_t”，可能丢失数据
+C:\Users\Pyotr\Desktop\删注释\test\test.cpp(965,23): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+C:\Users\Pyotr\Desktop\删注释\test\test.cpp(967,22): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+C:\Users\Pyotr\Desktop\删注释\test\test.cpp(862,9): warning C4102: “there”: 未引用的标签
+  test.vcxproj -> C:\Users\Pyotr\Desktop\删注释\x64\Debug\test.exe
