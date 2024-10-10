@@ -1,4 +1,4 @@
-# Maze-Game-uses-Astar-algorithm
+# A*算法迷宫游戏
 
 Maze-Game-uses-Astar-algorithm is a maze-solving game that utilizes the A* algorithm to find the shortest path from the start to the end of a maze. This project aims to demonstrate the application of the A* algorithm in pathfinding problems while providing an engaging game experience.
 
