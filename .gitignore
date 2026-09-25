@@ -1,0 +1,17 @@
+# Visual Studio build output and per-user settings
+.vs/
+x64/
+x86/
+Win32/
+Debug/
+Release/
+*.user
+*.suo
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.exe
+*.log
+*.sarif

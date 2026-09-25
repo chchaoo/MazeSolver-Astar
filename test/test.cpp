@@ -1,4 +1,4 @@
-#include <graphics.h>
+ï»¿#include <graphics.h>
 #include <conio.h>
 #include <windows.h> 
 #include <Mmsystem.h>
@@ -11,7 +11,7 @@
 using namespace std;
 
 
-// customize£º
+// customizeï¼š
 const int animate = 1;
 const int flash = 1;
 const int hide = 0;
@@ -21,7 +21,7 @@ const int maxtime = 90;
 int steps = 40;
 
 
-// adjustment£º
+// adjustmentï¼š
 const int n = 15;
 const int cellSize = 28;
 const int spacing = 2;
@@ -40,7 +40,7 @@ int END_Y = 14;
 int rege = 1;
 
 
-// variable£º
+// variableï¼š
 int x00, y00;
 int x, y;
 int xx = 0, yy = 0;
@@ -309,7 +309,7 @@ void title()
     putimage(0, 0, &img);
     setbkmode(TRANSPARENT);
 
-    settextstyle(25, 0, _T("ËÎÌå"));
+    settextstyle(25, 0, _T("å®‹ä½“"));
     RECT r2 = { 0,250,640,480 };
     
     RECT r3 = { 0,350,640,480 };
@@ -828,7 +828,7 @@ void move()
 
     setbkmode(TRANSPARENT);
     settextcolor(BLACK);
-    settextstyle(y2 - yy1 - 5, 0, _T("Î¢ÈíÑÅºÚ"));
+    settextstyle(y2 - yy1 - 5, 0, _T("å¾®è½¯é›…é»‘"));
     RECT r1 = { x1, yy1, x2, y2 };
     drawtext(_T("Help"), &r1, DT_CENTER | DT_VCENTER | DT_SINGLELINE);
 
@@ -946,7 +946,7 @@ void move()
                         BEGIN_Y = xx;
                         value();
 
-                        settextstyle(y2 - yy1 - 8, 0, _T("Î¢ÈíÑÅºÚ"));
+                        settextstyle(y2 - yy1 - 8, 0, _T("å¾®è½¯é›…é»‘"));
                         RECT r1 = { x3, y3, x4, y4 };
                         FlushBatchDraw();
                         k = 1;
@@ -967,18 +967,18 @@ void move()
         iMin = times / 60;
         iSec = times % 60;
         settextcolor(BLUE);
-        settextstyle(20, 0, _T("·ÂËÎ"));
+        settextstyle(20, 0, _T("ä»¿å®‹"));
         TCHAR strtime[9];
         TCHAR strstep[9];
 
         RECT r4 = { x5, y5 - 25, x6 + 20, y6 - 25 };
-        drawtext(_T("Time £º"), &r4, DT_CENTER | DT_VCENTER);
+        drawtext(_T("Time ï¼š"), &r4, DT_CENTER | DT_VCENTER);
 
         _sntprintf_s(strtime, sizeof(strtime), _T("%02d:%02d:%02d"), iHour, iMin, iSec);
         outtextxy(x5, y5, strtime);
 
         RECT r5 = { x7, y7 - 25, x8 + 20, y8 - 25 };
-        drawtext(_T("Steps £º"), &r5, DT_CENTER | DT_VCENTER);
+        drawtext(_T("Steps ï¼š"), &r5, DT_CENTER | DT_VCENTER);
 
         _sntprintf_s(strstep, sizeof(strstep), _T("%d"), steps);
         outtextxy(x7 + 30, y7, strstep);

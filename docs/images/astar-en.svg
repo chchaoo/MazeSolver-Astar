@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="452" viewBox="0 0 900 452" role="img" aria-label="How the Help button finds the way">
+<style>.t{fill:#1f2328;font:600 16px -apple-system,"Segoe UI","Noto Sans",Helvetica,Arial,"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif}.s{fill:#59636e;font:13px -apple-system,"Segoe UI","Noto Sans",Helvetica,Arial,"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif}.b{fill:#1f2328;font:600 13px -apple-system,"Segoe UI","Noto Sans",Helvetica,Arial,"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif}.n{font:600 11px Consolas,Menlo,monospace;fill:#1f2328}.free{fill:#e0ffff}.wall{fill:#1f3fbf}.closed{fill:#bfe3f5}.open{fill:#e0ffff;stroke:#2f81f7;stroke-width:2;stroke-dasharray:4 3}.path{fill:#8b949e}.end{fill:#f5d90a}.frame{fill:#d0d7de}@media (prefers-color-scheme:dark){.t,.b{fill:#e6edf3}.s{fill:#9198a1}.frame{fill:#3d444d}}</style>
+<text class="t" x="20" y="30">How the Help button finds the way</text>
+<rect class="frame" x="17" y="55" width="372" height="372" rx="4"/>
+<rect class="end" x="21" y="59" width="44" height="44" rx="3"/>
+<text class="b" x="43" y="86" text-anchor="middle" style="font-size:12px;fill:#1f2328">Start</text>
+<rect class="path" x="67" y="59" width="44" height="44" rx="3"/>
+<rect class="path" x="113" y="59" width="44" height="44" rx="3"/>
+<rect class="path" x="159" y="59" width="44" height="44" rx="3"/>
+<rect class="wall" x="205" y="59" width="44" height="44" rx="3"/>
+<rect class="free" x="251" y="59" width="44" height="44" rx="3"/>
+<rect class="free" x="297" y="59" width="44" height="44" rx="3"/>
+<rect class="free" x="343" y="59" width="44" height="44" rx="3"/>
+<rect class="closed" x="21" y="105" width="44" height="44" rx="3"/>
+<text class="n" x="43" y="131" text-anchor="middle" style="fill:#1f2328">140</text>
+<rect class="wall" x="67" y="105" width="44" height="44" rx="3"/>
+<rect class="wall" x="113" y="105" width="44" height="44" rx="3"/>
+<rect class="path" x="159" y="105" width="44" height="44" rx="3"/>
+<rect class="wall" x="205" y="105" width="44" height="44" rx="3"/>
+<rect class="open" x="251" y="105" width="44" height="44" rx="3"/>
+<text class="n" x="273" y="131" text-anchor="middle" style="fill:#1f2328">160</text>
+<rect class="wall" x="297" y="105" width="44" height="44" rx="3"/>
+<rect class="free" x="343" y="105" width="44" height="44" rx="3"/>
+<rect class="closed" x="21" y="151" width="44" height="44" rx="3"/>
+<text class="n" x="43" y="177" text-anchor="middle" style="fill:#1f2328">140</text>
+<rect class="closed" x="67" y="151" width="44" height="44" rx="3"/>
+<text class="n" x="89" y="177" text-anchor="middle" style="fill:#1f2328">140</text>
+<rect class="wall" x="113" y="151" width="44" height="44" rx="3"/>
+<rect class="path" x="159" y="151" width="44" height="44" rx="3"/>
+<rect class="path" x="205" y="151" width="44" height="44" rx="3"/>
+<rect class="path" x="251" y="151" width="44" height="44" rx="3"/>
+<rect class="wall" x="297" y="151" width="44" height="44" rx="3"/>
+<rect class="free" x="343" y="151" width="44" height="44" rx="3"/>
+<rect class="wall" x="21" y="197" width="44" height="44" rx="3"/>
+<rect class="closed" x="67" y="197" width="44" height="44" rx="3"/>
+<text class="n" x="89" y="223" text-anchor="middle" style="fill:#1f2328">140</text>
+<rect class="wall" x="113" y="197" width="44" height="44" rx="3"/>
+<rect class="wall" x="159" y="197" width="44" height="44" rx="3"/>
+<rect class="wall" x="205" y="197" width="44" height="44" rx="3"/>
+<rect class="path" x="251" y="197" width="44" height="44" rx="3"/>
+<rect class="wall" x="297" y="197" width="44" height="44" rx="3"/>
+<rect class="open" x="343" y="197" width="44" height="44" rx="3"/>
+<text class="n" x="365" y="223" text-anchor="middle" style="fill:#1f2328">160</text>
+<rect class="open" x="21" y="243" width="44" height="44" rx="3"/>
+<text class="n" x="43" y="269" text-anchor="middle" style="fill:#1f2328">160</text>
+<rect class="closed" x="67" y="243" width="44" height="44" rx="3"/>
+<text class="n" x="89" y="269" text-anchor="middle" style="fill:#1f2328">140</text>
+<rect class="closed" x="113" y="243" width="44" height="44" rx="3"/>
+<text class="n" x="135" y="269" text-anchor="middle" style="fill:#1f2328">140</text>
+<rect class="closed" x="159" y="243" width="44" height="44" rx="3"/>
+<text class="n" x="181" y="269" text-anchor="middle" style="fill:#1f2328">140</text>
+<rect class="wall" x="205" y="243" width="44" height="44" rx="3"/>
+<rect class="path" x="251" y="243" width="44" height="44" rx="3"/>
+<rect class="path" x="297" y="243" width="44" height="44" rx="3"/>
+<rect class="path" x="343" y="243" width="44" height="44" rx="3"/>
+<rect class="free" x="21" y="289" width="44" height="44" rx="3"/>
+<rect class="wall" x="67" y="289" width="44" height="44" rx="3"/>
+<rect class="wall" x="113" y="289" width="44" height="44" rx="3"/>
+<rect class="closed" x="159" y="289" width="44" height="44" rx="3"/>
+<text class="n" x="181" y="315" text-anchor="middle" style="fill:#1f2328">140</text>
+<rect class="wall" x="205" y="289" width="44" height="44" rx="3"/>
+<rect class="wall" x="251" y="289" width="44" height="44" rx="3"/>
+<rect class="wall" x="297" y="289" width="44" height="44" rx="3"/>
+<rect class="path" x="343" y="289" width="44" height="44" rx="3"/>
+<rect class="free" x="21" y="335" width="44" height="44" rx="3"/>
+<rect class="free" x="67" y="335" width="44" height="44" rx="3"/>
+<rect class="wall" x="113" y="335" width="44" height="44" rx="3"/>
+<rect class="closed" x="159" y="335" width="44" height="44" rx="3"/>
+<text class="n" x="181" y="361" text-anchor="middle" style="fill:#1f2328">140</text>
+<rect class="closed" x="205" y="335" width="44" height="44" rx="3"/>
+<text class="n" x="227" y="361" text-anchor="middle" style="fill:#1f2328">140</text>
+<rect class="closed" x="251" y="335" width="44" height="44" rx="3"/>
+<text class="n" x="273" y="361" text-anchor="middle" style="fill:#1f2328">140</text>
+<rect class="wall" x="297" y="335" width="44" height="44" rx="3"/>
+<rect class="path" x="343" y="335" width="44" height="44" rx="3"/>
+<rect class="wall" x="21" y="381" width="44" height="44" rx="3"/>
+<rect class="free" x="67" y="381" width="44" height="44" rx="3"/>
+<rect class="open" x="113" y="381" width="44" height="44" rx="3"/>
+<text class="n" x="135" y="407" text-anchor="middle" style="fill:#1f2328">160</text>
+<rect class="closed" x="159" y="381" width="44" height="44" rx="3"/>
+<text class="n" x="181" y="407" text-anchor="middle" style="fill:#1f2328">140</text>
+<rect class="wall" x="205" y="381" width="44" height="44" rx="3"/>
+<rect class="closed" x="251" y="381" width="44" height="44" rx="3"/>
+<text class="n" x="273" y="407" text-anchor="middle" style="fill:#1f2328">140</text>
+<rect class="open" x="297" y="381" width="44" height="44" rx="3"/>
+<text class="n" x="319" y="407" text-anchor="middle" style="fill:#1f2328">140</text>
+<rect class="end" x="343" y="381" width="44" height="44" rx="3"/>
+<text class="b" x="365" y="408" text-anchor="middle" style="font-size:12px;fill:#1f2328">Home</text>
+<polyline points="365,403 365,357 365,311 365,265 319,265 273,265 273,219 273,173 227,173 181,173 181,127 181,81 135,81 89,81 43,81" fill="none" stroke="#e5484d" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" opacity=".85"/>
+<rect class="path" x="432" y="64" width="22" height="22" rx="3"/>
+<text class="s" x="466" y="80">Path returned by A*</text>
+<rect class="closed" x="432" y="98" width="22" height="22" rx="3"/>
+<text class="s" x="466" y="114">Examined (closed list)</text>
+<rect class="open" x="432" y="132" width="22" height="22" rx="3"/>
+<text class="s" x="466" y="148">Waiting (open list)</text>
+<rect class="wall" x="432" y="166" width="22" height="22" rx="3"/>
+<text class="s" x="466" y="182">Wall</text>
+<text class="b" x="432" y="218">Each cell: F = G + H</text>
+<text class="s" x="432" y="242">G  cost so far: 10 per straight step, 14 per diagonal</text>
+<text class="s" x="432" y="264">H  estimate to Home: (|dx| + |dy|) x 10</text>
+<text class="s" x="432" y="298">A* always expands the open cell with the lowest F,</text>
+<text class="s" x="432" y="320">and stops as soon as Home enters the open list.</text>
+<text class="s" x="432" y="342">Numbers in cells are F; the red line is the path.</text>
+</svg>
