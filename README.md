@@ -12,6 +12,10 @@ Stuck? Click Help and the A\* algorithm draws the way from where you stand.**
 
 **English** · [简体中文](README.zh-CN.md)
 
+**[Download Windows x64 EXE](https://github.com/chchaoo/MazeSolver-Astar/releases/latest)**
+
+The release executable includes the images and music; no separate asset download is needed.
+
 </div>
 
 https://github.com/chchaoo/Maze-Game-uses-Astar-algorithm/assets/166147704/da050e9e-ba81-436d-87aa-2482a5c648c6

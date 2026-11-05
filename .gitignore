@@ -15,3 +15,5 @@ Release/
 *.exe
 *.log
 *.sarif
+/build-release/
+/dist/

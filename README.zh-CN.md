@@ -12,6 +12,10 @@
 
 [English](README.md) · **简体中文**
 
+**[下载 Windows x64 程序](https://github.com/chchaoo/MazeSolver-Astar/releases/latest)**
+
+发布版 EXE 已包含图片和音乐，无需另外下载素材。
+
 </div>
 
 https://github.com/chchaoo/Maze-Game-uses-Astar-algorithm/assets/166147704/da050e9e-ba81-436d-87aa-2482a5c648c6
