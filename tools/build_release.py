@@ -22,7 +22,7 @@ def main():
     subprocess.run(['7z', 'x', str(installer), '-o' + str(library), '-y'], check=True)
     header = next(library.rglob('graphics.h'))
     candidates = [p for p in library.rglob('EasyXw.lib') if 'x64' in p.parts]
-    candidates.sort(key=lambda p: ('VC2015' not in p.parts, str(p)))
+    candidates.sort(key=lambda p: ('vc2015' not in str(p).lower(), str(p)))
     if not candidates:
         raise RuntimeError('The official package does not contain the x64 library')
     assets = sorted((ROOT / 'test').glob('*.jpg')) + [ROOT / 'test/music.wav', ROOT / 'LICENSE', ROOT / 'NOTICE.md']
@@ -90,7 +90,10 @@ int main(int argc, char** argv) {
                     '/DUNICODE', '/D_UNICODE', '/D_CRT_SECURE_NO_WARNINGS', '/I' + str(header.parent),
                     str(BUILD / 'portable.cpp'), str(BUILD / 'assets.res'),
                     '/Fe:' + str(executable), '/Fo:' + str(BUILD / 'portable.obj'),
-                    '/link', '/LIBPATH:' + str(candidates[0].parent)], check=True)
+                    '/link', '/LIBPATH:' + str(candidates[0].parent),
+                    'user32.lib', 'gdi32.lib', 'shell32.lib', 'ole32.lib',
+                    'oleaut32.lib', 'uuid.lib', 'comdlg32.lib', 'gdiplus.lib',
+                    'comctl32.lib', 'advapi32.lib', 'winmm.lib'], check=True)
     subprocess.run([str(executable), '--check-assets'], check=True)
     print('Portable executable:', executable)
 
