@@ -1,0 +1,29 @@
+name: Build portable Windows release
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-2022
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - name: Locate Visual C++ tools
+        shell: pwsh
+        run: |
+          $install = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -products * -requires Microsoft.VisualStudio.Component.VC.Tools.x86.x64 -property installationPath
+          if (!$install) { throw "Visual C++ tools are unavailable" }
+          "VSROOT=$install" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+      - name: Build and verify embedded resources
+        shell: cmd
+        run: |
+          call "%VSROOT%\VC\Auxiliary\Build\vcvars64.bat"
+          if errorlevel 1 exit /b 1
+          python tools\build_release.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MazeSolver-Astar-Windows-x64
+          path: dist/MazeSolver-Astar-Windows-x64.exe
+          if-no-files-found: error
+          retention-days: 1
